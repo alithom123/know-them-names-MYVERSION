@@ -1,0 +1,84 @@
+/* CSS for index.html */
+body{
+    font-family: 'Major Mono Display', monospace;
+    background:black;
+    color: white;
+}
+h1{
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    color: white;
+    font-size: 75px; 
+} 
+h2{
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.title{
+    background-image: url("../images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8%;
+    margin: 0%;
+    width: 100%;
+}
+.navbar{
+    font-family: 'Major Mono Display', monospace;
+    background:#3910A2;
+}
+.nav-item, .navbar-brand{
+    color: #3DF5FF;
+    text-decoration: 
+}
+.input-group{
+    width: 40%;
+    margin: 5% 30%;   
+}
+.card{
+    background:black;
+    color: white;
+}
+.about{
+    color: white;
+    background: #FF940A;
+    align-content: center;
+    border:none;
+    border-radius: 25px;
+    /* padding: 4px; */
+    margin: 10px;
+    font-size: 20px;
+    align-self: center
+
+}
+.card-info, .trackList{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+
+}
+.card-header{
+    font-family: 'Major Mono Display', monospace;
+    background:black;
+    color: white;
+    font-size: 25px;
+}
+#player{
+    float:right;
+}
+
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
